@@ -1,0 +1,72 @@
+baseUrl = "https://umoolchoha.github.io/"
+languageCode = "ko-kr"
+
+title = "Choha's blog"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+#disqusShortname = "https-devplayg-github-io"
+#googleAnalytics = "UA-112382230-1"
+enableRobotsTXT = true
+
+summarylength = 30
+# paginate = 5
+
+pluralizelisttitles = false
+
+## Site Settings
+[params]
+    author = "choha"
+    title = "Choha"
+    description = ""
+    authorimage = "/img/avatar.png"
+    dateformat = "Mon, Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "choha"
+    #license = "CC BY-SA 4.0"
+    #licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    # showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "agate"
+    highlightjslanguages = ["go"]
+
+
+
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+# taxonomies
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+
+## Social Accounts
+[params.social]
+    #github = "devplayg"
+    #instagram = "<username>"
+    #xing = "<username>"
+    #linkedin = "<username>"
+    #twitter = "devplayg"
+    #facebook = "<username>"
+    #stackoverflow = "<username>"
+    #telegram = "<username>"
+    email = "umoolchoha@gmail.com"
+    #gravatar = "your-email@example.com"
+
+[menu]
+    [[menu.main]]
+        identifier = "2019"
+        name = "2019年 作"
+        weight = 10
+        url = "/2019/"
