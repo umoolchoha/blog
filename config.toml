@@ -1,7 +1,7 @@
 baseUrl = "https://umoolchoha.github.io/"
 languageCode = "ko-kr"
 
-title = "Choha's blog"
+title = "초하"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
@@ -19,7 +19,7 @@ pluralizelisttitles = false
     author = "choha"
     title = "Choha"
     description = ""
-    authorimage = "/img/avatar.png"
+    authorimage = "/img/avatar_frame.png"
     dateformat = "Mon, Jan 2, 2006"
 
     # sidebar, copyright & license
@@ -70,3 +70,38 @@ pluralizelisttitles = false
         name = "2019年 作"
         weight = 10
         url = "/2019/"
+    [[menu.main]]
+        identifier = "2018"
+        name = "2018年 作"
+        weight = 11
+        url = "/2018/"
+    [[menu.main]]
+        identifier = "2017"
+        name = "2017年 作"
+        weight = 12
+        url = "/2017/"
+    [[menu.main]]
+        identifier = "2016"
+        name = "2016年 作"
+        weight = 13
+        url = "/2016/"
+    [[menu.main]]
+        identifier = "2015"
+        name = "2015年 作"
+        weight = 14
+        url = "/2015/"
+    [[menu.main]]
+        identifier = "2014"
+        name = "2014年 作"
+        weight = 15
+        url = "/2014/"
+    [[menu.main]]
+        identifier = "2013"
+        name = "2013年 作"
+        weight = 16
+        url = "/2013/"
+    [[menu.main]]
+        identifier = "2012"
+        name = "2012年 作"
+        weight = 17
+        url = "/2012/"
