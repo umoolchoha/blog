@@ -14,13 +14,16 @@ summarylength = 30
 
 pluralizelisttitles = false
 
+FootnoteReturnLinkContents = "↩"
+
 ## Site Settings
 [params]
     author = "choha"
     title = "Choha"
     description = ""
     authorimage = "/img/avatar_frame.png"
-    dateformat = "Mon, Jan 2, 2006"
+    #dateformat = "Mon, Jan 2, 2006"
+    dateformat = "2006"
 
     # sidebar, copyright & license
     copyright = "choha"
@@ -51,6 +54,7 @@ pluralizelisttitles = false
   tag = "tags"
 
 
+
 ## Social Accounts
 [params.social]
     #github = "devplayg"
@@ -66,42 +70,52 @@ pluralizelisttitles = false
 
 [menu]
     [[menu.main]]
-        identifier = "2019"
+        identifier = "poet_2019"
         name = "2019年 作"
         weight = 10
-        url = "/2019/"
+        url = "/categories/2019%E5%B9%B4-%E4%BD%9C/"
     [[menu.main]]
-        identifier = "2018"
+        identifier = "poet_2018"
         name = "2018年 作"
         weight = 11
-        url = "/2018/"
+        url = "/categories/2018%E5%B9%B4-%E4%BD%9C/"
     [[menu.main]]
-        identifier = "2017"
+        identifier = "poet_2017"
         name = "2017年 作"
         weight = 12
-        url = "/2017/"
+        url = "/categories/2017%E5%B9%B4-%E4%BD%9C/"
     [[menu.main]]
-        identifier = "2016"
+        identifier = "poet_2016"
         name = "2016年 作"
         weight = 13
-        url = "/2016/"
+        url = "/categories/2016%E5%B9%B4-%E4%BD%9C/"
     [[menu.main]]
-        identifier = "2015"
+        identifier = "poet_2015"
         name = "2015年 作"
         weight = 14
-        url = "/2015/"
+        url = "/categories/2015%E5%B9%B4-%E4%BD%9C/"
     [[menu.main]]
-        identifier = "2014"
+        identifier = "poet_2014"
         name = "2014年 作"
         weight = 15
-        url = "/2014/"
+        url = "/categories/2014%E5%B9%B4-%E4%BD%9C/"
     [[menu.main]]
-        identifier = "2013"
+        identifier = "poet_2013"
         name = "2013年 作"
         weight = 16
-        url = "/2013/"
+        url = "/categories/2013%E5%B9%B4-%E4%BD%9C/"
     [[menu.main]]
-        identifier = "2012"
+        identifier = "poet_2012"
         name = "2012年 作"
         weight = 17
-        url = "/2012/"
+        url = "/categories/2012%E5%B9%B4-%E4%BD%9C/"
+    [[menu.main]]
+        identifier = "poet_paper"
+        name = "논문"
+        weight = 21
+        url = "/categories/%EB%85%BC%EB%AC%B8/"
+    [[menu.main]]
+        identifier = "poet_essay"
+        name = "수필"
+        weight = 22
+        url = "/categories/%EC%88%98%ED%95%84/"

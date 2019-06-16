@@ -70,6 +70,8 @@ pre.poetry p {
 	margin:0;
 	white-space: pre;
 	margin-bottom: 1.4rem;
+	//font-size: 1.3em;
+	//line-height: 2.1rem;
 }
 
 .poetry-title {
@@ -84,3 +86,15 @@ pre.poetry p {
 sup {
 	font-size: small;
 }
+
+
+// footnote link
+a[href^="#fn:"],
+	// Back to footnote link
+a[href^="#fnref:"] {
+	text-decoration: none;
+	color: $orange;
+	font-family: monospace;
+}
+a[href^="#fn:"]:before{ content: '[' }
+a[href^="#fn:"]:after{ content: ']' }
