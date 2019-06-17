@@ -10,7 +10,7 @@ theme = "hyde-hyde"
 enableRobotsTXT = true
 
 summarylength = 10
-# paginate = 5
+paginate = 15
 
 pluralizelisttitles = false
 
