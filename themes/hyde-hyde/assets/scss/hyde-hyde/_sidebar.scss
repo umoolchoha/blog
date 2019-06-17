@@ -2,7 +2,9 @@
   background-color: $sidebar-color;
   color: rgb(255, 255, 255);
   color: rgba(255, 255, 255, 0.5);
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
+  //font-size: 0.7rem;
+  //line-height: 1.5em;
   text-align: center;
   a {
     color: $gray-1;
@@ -19,7 +21,7 @@
   }
   .author-image {
     display: block;
-    margin-top: 20px;
+    margin-top: 15px;
   }
 }
 
@@ -65,8 +67,8 @@
 }
 
 .img--headshot {
-	height: 215px;
-	//width: 115px;
+	//height: 215px;
+	width: 115px;
 }
 
 .img--caption {

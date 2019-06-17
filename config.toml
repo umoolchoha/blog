@@ -9,7 +9,7 @@ theme = "hyde-hyde"
 #googleAnalytics = "UA-112382230-1"
 enableRobotsTXT = true
 
-summarylength = 30
+summarylength = 10
 # paginate = 5
 
 pluralizelisttitles = false
