@@ -5,7 +5,7 @@ title = "초하"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
-#disqusShortname = "https-devplayg-github-io"
+disqusShortname = "choha"
 #googleAnalytics = "UA-112382230-1"
 enableRobotsTXT = true
 
