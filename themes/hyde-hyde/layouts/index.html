@@ -22,12 +22,9 @@
         {{ if .Description }}
         {{ .Description }}
         {{ else }}
-        {{ .Summary }}
         {{ end }}
         </span>
-        {{ if .Truncated }}
-          ... <a class="read-more-symbol" href="{{ .RelPermalink }}">➦</a>
-        {{ end }}
+
         </div>
         {{ .Scratch.Delete "draftPage" }}
      {{ end }}

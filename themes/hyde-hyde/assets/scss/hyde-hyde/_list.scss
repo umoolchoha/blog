@@ -5,11 +5,12 @@
 }
 
 .post-list__item {
-	margin-bottom: 3em;
+	margin-bottom: 1em;
+	//border:1px solid blue;
 }
 
 .item__title--big {
-	display: block;
+	//display: block;
 	font-size: $item__title-big-font-size;
 	line-height: 1.25;
 }
@@ -20,8 +21,10 @@
 
 .item__date {
 	color: $item__date-color;
-	display: block;
+	font-style: italic;
+	//border:1px solid red;
+	//display: block;
 	font-size: $item__date-font-size;
-	margin-bottom: .2rem;
-	margin-top: .2rem;
+	//margin-bottom: .2rem;
+	//margin-top: .2rem;
 }

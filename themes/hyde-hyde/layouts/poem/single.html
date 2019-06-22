@@ -1,5 +1,5 @@
 {{ define "header" }}
-{{ partial "header.html" . }}
+    {{ partial "header.html" . }}
 {{ end }}
 
 {{ define "content" }}
@@ -9,9 +9,12 @@
     <div class="poetry-subtitle">-{{.}}-</div>
     {{ end }}
     <pre class="poetry">{{.Content}}</pre>
+
+    {{ partial "page-single/post-comment.html" . }}
 </div>
 {{ end }}
 
+
 {{ define "footer" }}
-{{ partial "footer/font-awesome-js.html" . }}
+    {{ partial "footer/font-awesome-js.html" . }}
 {{ end }}
