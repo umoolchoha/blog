@@ -16,6 +16,10 @@ html, body {
 	padding: 0;
 }
 
+body {
+	background:  url("/img/bg_poetry.png") repeat ;
+}
+
 h1,
 h2,
 h3,
@@ -150,4 +154,12 @@ a {
 .content {
 	padding-bottom: 2rem;
 	padding-top: 2rem;
+
+}
+
+ul.posts  {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	//text-indent: -1em;
 }
