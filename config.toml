@@ -68,6 +68,11 @@ FootnoteReturnLinkContents = "↩"
 
 [menu]
     [[menu.main]]
+        identifier = "poet_2020"
+        name = "2020年 作"
+        weight = 9
+        url = "/categories/2020%E5%B9%B4-%E4%BD%9C/"
+    [[menu.main]]
         identifier = "poet_2019"
         name = "2019年 作"
         weight = 10
@@ -117,3 +122,8 @@ FootnoteReturnLinkContents = "↩"
         name = "수필"
         weight = 22
         url = "/categories/%EC%88%98%ED%95%84/"
+    [[menu.main]]
+        identifier = "about"
+        name = "소개"
+        weight = 23
+        url = "/about/"
