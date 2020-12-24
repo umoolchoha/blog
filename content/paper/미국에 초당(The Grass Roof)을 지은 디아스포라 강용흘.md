@@ -1,5 +1,5 @@
 ---
-title: '미국에 초당(The Grass Roof)을 지은 디아스포라 "강용흘"' 
+title: '미국에 초당(The Grass Roof)을 지은 디아스포라 `강용흘`'  
 date: 2015-06-16T00:00:00+09:00
 categories:
     - 논문
