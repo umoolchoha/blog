@@ -3,9 +3,11 @@
   <span class="item__title">
 
     <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>
-      &lt;
-      {{ .Title }}
-      &gt;
+       {{ if  hasPrefix .URL "/paper" }}
+            &lt;{{ .Title }}&gt;
+        {{else}}
+            {{ .Title }}
+        {{end}}
     </a>
     {{ if hasPrefix .URL "/paper" }}
       <time class="pull-right hidden-tablet">2015 ~ 2018</time>
