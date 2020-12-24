@@ -5,7 +5,7 @@ title = "초하 (草河)"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
-disqusShortname = "choha"
+disqusShortname = ""
 googleAnalytics = "UA-142276080-1"
 enableRobotsTXT = true
 
