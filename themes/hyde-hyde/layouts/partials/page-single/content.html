@@ -1,7 +1,12 @@
 {{ $include_toc := .Params.include_toc}}
 <article>
   <header>
-    <h1 class="post__title">{{ .Title }}
+    <h1 class="post__title">
+        {{ if  hasPrefix .URL "/paper" }}
+            &lt;{{ .Title }}&gt;
+        {{else}}
+            {{ .Title }}
+        {{end}}
         <small>
         {{ with .Params.subtitle }}
         <span class="post__subtitle">{{.}}</span>
