@@ -1,0 +1,20 @@
+{{ define "header" }}
+    {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<div class="post">
+    <h1 class="poetry-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+    <div class="poetry-subtitle">-{{.}}-</div>
+    {{ end }}
+    <pre class="poetry">{{.Content}}</pre>
+
+    {{ partial "page-single/post-comment.html" . }}
+</div>
+{{ end }}
+
+
+{{ define "footer" }}
+    {{ partial "footer/font-awesome-js.html" . }}
+{{ end }}

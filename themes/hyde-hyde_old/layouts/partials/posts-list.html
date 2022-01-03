@@ -1,0 +1,22 @@
+{{ range . }}
+<li>
+  <span class="item__title">
+
+    <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>
+       {{ if  hasPrefix .URL "/paper" }}
+            &lt;{{ .Title }}&gt;
+        {{else}}
+            {{ .Title }}
+        {{end}}
+    </a>
+    {{ if hasPrefix .URL "/paper" }}
+      <time class="pull-right hidden-tablet">2015 ~ 2018</time>
+    {{else}}
+      {{if not .Date.IsZero}}
+      <time class="pull-right hidden-tablet">{{ .Date.Format (.Site.Params.dateformat | default "Jan 02 '06") }}</time>
+      {{end}}
+    {{end}}
+
+  </span>
+</li>
+{{ end }}
