@@ -8,5 +8,5 @@ git push
 cd ..
 git add .
 git commit -m "changed"
-git push 
+git push
 
