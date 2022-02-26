@@ -68,6 +68,11 @@ FootnoteReturnLinkContents = "↩"
 
 [menu]
     [[menu.main]]
+            identifier = "poet_2022"
+            name = "2022年 作"
+            weight = 7
+            url = "/categories/2022%E5%B9%B4-%E4%BD%9C/"
+    [[menu.main]]
         identifier = "poet_2021"
         name = "2021年 作"
         weight = 8
